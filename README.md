@@ -35,4 +35,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-This LSP extension is built to complement the [Modern Assembly language](https://github.com/BoettcherDasOriginal/modern-assembly).
+This LC extension is built to complement the [Modern Assembly language](https://github.com/BoettcherDasOriginal/modern-assembly).
