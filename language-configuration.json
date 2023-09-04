@@ -15,7 +15,7 @@
   "autoClosingPairs": [
     {
       "open": "else:",
-      "close": "\n",
+      "close": "",
       "notIn": [
         "string",
         "comment"
@@ -44,7 +44,7 @@
   "onEnterRules": [
     {
       "beforeText": ":",
-      "afterText": "",
+      "afterText": "end",
       "action": {
         "indent": "indentOutdent",
       }
