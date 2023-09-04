@@ -2,16 +2,17 @@
   "comments": {
     "lineComment": "#"
   },
-  "colorizedBracketPairs": [
-    [
-      ":",
-      "end"
-    ],
+  "brackets": [
     [
       ":",
       "else"
+    ],
+    [
+      ":",
+      "end"
     ]
   ],
+  "colorizedBracketPairs": [],
   "autoClosingPairs": [
     {
       "open": "else:",
