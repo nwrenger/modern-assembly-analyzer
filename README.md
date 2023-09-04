@@ -23,7 +23,7 @@ The Modern Assembly Language Analyzer is an LC (Language Configuration) extensio
 ## Usage
 
 1. Open a .ma file or a Modern Assembly project in VS Code.
-2. The extension should automatically activate, providing syntax highlighting.
+2. The extension should automatically activate, providing syntax highlighting and auto completion.
 
 ## Configuration
 
