@@ -3,7 +3,7 @@
   "description": "Language Configuration for Modern Assembly",
   "author": "nwrenger",
   "license": "MIT",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "publisher": "ModernAssembly",
   "repository": {
     "type": "git",
@@ -23,8 +23,9 @@
           ".ma"
         ],
         "aliases": [
-          "ma",
-          "Modern Assembly"
+          "Modern Assembly",
+          "modern-assembly",
+          "ma"
         ],
         "configuration": "./language-configuration.json"
       }
