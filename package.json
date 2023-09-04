@@ -1,9 +1,10 @@
 {
   "name": "modern-assembly-analyzer",
   "description": "Language Configuration for Modern Assembly",
+  "icon": "ModernAssembly.png",
   "author": "nwrenger",
   "license": "MIT",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "ModernAssembly",
   "repository": {
     "type": "git",
