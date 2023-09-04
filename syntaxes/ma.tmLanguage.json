@@ -1,0 +1,44 @@
+{
+  "name": "modern-assembly-analyzer",
+  "scopeName": "source.ma",
+  "fileTypes": [
+    ".ma"
+  ],
+  "patterns": [
+    {
+      "name": "comment.ma",
+      "match": "#.*$"
+    },
+    {
+      "name": "string.ma",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.ma",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "keyword.control.ma",
+      "match": "\\b(fn|let|if|else|return|end)\\b"
+    },
+    {
+      "name": "constant.language.boolean.ma",
+      "match": "\\b(true|false)\\b"
+    },
+    {
+      "name": "constant.numeric.ma",
+      "match": "\\b[0-9]+\\b"
+    },
+    {
+      "name": "identifier.ma",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "punctuation.ma",
+      "match": ":|!|<|>|="
+    }
+  ]
+}

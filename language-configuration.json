@@ -1,0 +1,65 @@
+{
+  "comments": {
+    "lineComment": "#"
+  },
+  "colorizedBracketPairs": [
+    [
+      ":",
+      "end"
+    ],
+    [
+      ":",
+      "else"
+    ]
+  ],
+  "autoClosingPairs": [
+    {
+      "open": "else:",
+      "close": "\r",
+      "notIn": [
+        "string",
+      ]
+    },
+    {
+      "open": ":",
+      "close": "end",
+      "notIn": [
+        "string",
+      ]
+    },
+    {
+      "open": "\"",
+      "close": "\"",
+      "notIn": [
+        "string"
+      ]
+    }
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": ":",
+    "decreaseIndentPattern": "(end|else)"
+  },
+  "onEnterRules": [
+    {
+      "beforeText": ":",
+      "afterText": "",
+      "action": {
+        "indent": "indentOutdent",
+      }
+    },
+  ],
+  "surroundingPairs": [
+    [
+      ":",
+      "end"
+    ],
+    [
+      ":",
+      "else"
+    ],
+    [
+      "\"",
+      "\""
+    ]
+  ]
+}

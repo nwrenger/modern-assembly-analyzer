@@ -1,0 +1,40 @@
+{
+  "name": "modern-assembly-analyzer",
+  "description": "Language Configuration for Modern Assembly",
+  "author": "nwrenger",
+  "license": "MIT",
+  "version": "0.1.6",
+  "publisher": "ModernAssembly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwrenger/modern-assembly-analyzer"
+  },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ma",
+        "extensions": [
+          ".ma"
+        ],
+        "aliases": [
+          "ma",
+          "Modern Assembly"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ma",
+        "scopeName": "source.ma",
+        "path": "./syntaxes/ma.tmLanguage.json"
+      }
+    ]
+  }
+}
