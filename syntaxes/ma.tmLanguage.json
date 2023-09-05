@@ -22,7 +22,7 @@
     },
     {
       "name": "keyword.control.ma",
-      "match": "\\b(fn|let|if|else|return|end)\\b"
+      "match": "\\b(fn|const|let|if|else|return|end)\\b"
     },
     {
       "name": "constant.language.boolean.ma",
