@@ -10,9 +10,18 @@
     [
       ":",
       "end"
+    ],
+    [
+      "\"",
+      "\""
     ]
   ],
-  "colorizedBracketPairs": [],
+  "colorizedBracketPairs": [
+    [
+      "(",
+      ")"
+    ],
+  ],
   "autoClosingPairs": [
     {
       "open": "else:",
@@ -29,6 +38,11 @@
         "string",
         "comment"
       ]
+    },
+    {
+      "open": "(",
+      "close": ")",
+      "notIn": []
     },
     {
       "open": "\"",
@@ -59,6 +73,10 @@
     [
       ":",
       "else"
+    ],
+    [
+      "(",
+      ")"
     ],
     [
       "\"",
